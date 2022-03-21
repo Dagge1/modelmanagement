@@ -1,0 +1,3 @@
+@import "myfont";  // fonts - has to be set before calling bootstrap.scss, write without underscore _ at the filename beginning
+@import "bootstrap/scss/bootstrap"; // has to be after importing custom font and before inserting our own styles
+@import "mychanges";  // custom style changes, has to be positioned after bootstrap 

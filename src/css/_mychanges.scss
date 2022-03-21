@@ -1,0 +1,104 @@
+// Custom Bootstrap style changes go here, my styles start with .d-
+
+h1 {
+    font-weight: 700 !important;
+    color: black;
+}
+
+h2 {
+    font-weight: 700 !important;
+    color: black;
+}
+
+h4 {
+    font-weight: 700 !important;
+    color: black;
+}
+
+// navbar bottom grey line & no padding for navbar-brand background
+.navbar { 
+    padding-top: 0px;
+    padding-bottom: 0px;
+    //border-bottom:1px solid #e3e3e3;
+}
+
+.navbar .navbar-brand {
+    //color: #fff;
+    background: #fff;  
+} 
+
+// brand background height
+.navbar-brand {
+    height: 75px;
+    font-weight: 600;
+    line-height: 13.5px;
+    font-size: 1.4em; /* brand font size and color */
+    color: black !important;
+}
+
+.brand-second-line {
+    font-weight: 400;
+    font-size: 0.54em;  /* second row font size */
+    margin-left: 0.1em;  /* position of the text start */
+    letter-spacing: 0.34em; /* second row font letter spacing */   
+    color: #bbbccc;
+}
+
+.jumbo {
+    background-color: #c4e5ff;
+    border-radius: 9px;
+}
+
+.d-grey {
+    color: #a3a3a3 !important;
+    font-weight: 500 !important;
+}
+
+/* card address font color */
+.d-card-grey {
+    color: #a3a3a3 !important;
+}
+
+.d-bold {
+    font-weight: 700 !important;
+}
+
+.d-cross {
+    font-size: 3.7rem;
+    font-weight: 400 !important;
+    color: red;
+    
+}
+
+/* no bottom margin */
+.d-no-bottom {
+    margin-bottom: 0rem !important;
+}
+
+/* card image constrain max size limits, height has priority, width fits automatic keeping aspect ratio */
+.d-card-img-top {
+    max-width:318px;
+    max-height:200px;
+    width:auto;
+    height:200px;
+}
+
+.d-card-logo {  /* logo css */
+    max-width: 120px;
+    max-height:55px;
+    width:auto;
+    //height:auto;
+    //height:22px;
+}
+
+.d-gray-txt {
+    color: #696b6d !important;
+}
+
+/* decorating only particular link with class .d-link-archive */
+a.d-link-archive:link, a.d-link-archive:visited, a.d-link-archive:hover, a.d-link-archive:active { /* link for clicking archived items on page delivered-list */
+    color: white !important;
+    text-decoration: none !important;
+}
+
+
