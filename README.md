@@ -2,7 +2,7 @@
 Built with Vue 3 + Vite + Vuex + Router
 
 ## How to start
-- emter into CLI: npm install 
+- enter into CLI: npm install 
 - open two CLI instances, for the front end: npm run dev
 and another for the json server: npm run server
 - in the browser go to localhost:5000
@@ -20,7 +20,7 @@ Extras if you have time
 NOTE: All requirements are fulfilled  
 
 
-*** Instructions ***
+*** Instructions ***  
 Models listed use infinite load pagination, next 20 models are loaded upon scrolling down  
 On the model detailed page click on the model name to edit it, press enter to save it.  
 
@@ -30,7 +30,7 @@ Go back to main page by clicking < icon in order to see changed name. You can ch
 
 You can search items by model full name (search is built to be not case sensitive, but json-server requires exact name and surename to be entered)  
 
->You can sort items by name, ascending or descending
+You can sort items by name, ascending or descending
 
 
 
